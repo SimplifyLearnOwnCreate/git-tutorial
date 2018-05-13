@@ -29,7 +29,7 @@ Add new files 					$git add filename
 						$git add filename filename 
 Add all new files				$git add -A 
 Commit file added with message 			$git commit filename -m “Commit”
-Save changes to server				$git push
+Save your local commits to server		$git push
 
 
 $git merge
