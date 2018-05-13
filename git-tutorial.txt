@@ -1,0 +1,56 @@
+Git Tutorial 
+
+
+Terms: 
+
+Term 		Definition 
+——————————————————————————————————
+Clone 		copy file to server
+Untrack 	new file
+
+
+
+Commands: 
+
+Description					Command 
+—————————————————————————————————————————————————————————————————————————————————————————————
+View configs 					$git config --list
+Set user name 	        			$git config --user.name "Darryl Weimers"
+Compare between local and server		$git diff
+Show log					$git log
+Show current state of project			$git status
+Get the latest copy from server 		$git pull
+might need to merge with your local copy
+Put change aside				$git stash
+Retrieve changes put aside			$git stash apply
+Remove changes put aside			$git stash drop
+Copy file from server 				$git clone url 
+Add new files 					$git add filename 
+						$git add filename filename 
+Add all new files				$git add -A 
+Commit file added with message 			$git commit filename -m “Commit”
+Save changes to server				$git push
+
+
+$git merge
+
+
+
+Tip:
+Type Q to exit from log
+
+Tip 
+Navigate to the folder that contains your 
+
+0. Go to command line (for Mac). Note for window install git bash.
+1. Change directory to your project folder
+   cd directory
+   Example:
+   directory: C://
+
+
+
+
+
+
+ 
