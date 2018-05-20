@@ -30,6 +30,12 @@ Add new files 					$git add filename
 Add all new files				$git add -A 
 Commit file added with message 			$git commit filename -m “Commit”
 Save your local commits to server		$git push
+Add remote server 				$git remote add remote-name remote-url 
+						e.g
+						$git remote add origin https://github.com/user/repo.git
+Prevent mac from going to sleep 		$caffeinate
+exit mode 					CTRL + c 
+
 
 
 $git merge
