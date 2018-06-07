@@ -33,12 +33,12 @@ Save your local commits to server		$git push
 Add remote server 				$git remote add remote-name remote-url 
 						e.g
 						$git remote add origin https://github.com/user/repo.git
-Prevent mac from going to sleep 		$caffeinate
-exit mode 					CTRL + c 
+Merge code 					$git merge
+
+Find out which diff tool you need to install    $git difftool --tool-help
+Set up diff tool 			 	$git difftool --tool=tkdiff
 
 
-
-$git merge
 
 
 
