@@ -1,62 +1,54 @@
-Git Tutorial 
+Git Tutorial
 
 
-Terms: 
+Terms:
 
-Term 		Definition 
+Term 		Definition
 ——————————————————————————————————
 Clone 		copy file to server
 Untrack 	new file
 
 
+Commands:
 
-Commands: 
-
-Description					Command 
+Description					Command
 —————————————————————————————————————————————————————————————————————————————————————————————
-View configs 					$git config --list
-Set user name 	        			$git config --user.name "Darryl Weimers"
-Compare between local and server		$git diff
-Show log					$git log
-Show current state of project			$git status
-Get the latest copy from server 		$git pull
+View configs 																		$ git config --list
+Set user name 	        												$ git config --user.name "Darryl Weimers"
+Compare between local and server								$	git diff
+Show log																				$ git log
+Show current state of project										$ git status
+Get the latest copy from server 								$ git pull
 might need to merge with your local copy
-Put change aside				$git stash
-Retrieve changes put aside			$git stash apply
-Remove changes put aside			$git stash drop
-Copy file from server 				$git clone url 
-Add new files 					$git add filename 
-						$git add filename filename 
-Add all new files				$git add -A 
-Commit file added with message 			$git commit filename -m “Commit”
-Save your local commits to server		$git push
-Add remote server 				$git remote add remote-name remote-url 
+Put change aside																$ git stash
+Retrieve changes put aside											$ git stash apply
+Remove changes put aside												$ git stash drop
+Copy file from server 													$ git clone url
+Add new files 																	$ git add filename
+																								$	git add filename filename
+Add all new files																$	git add -A
+Commit file added with message 									$	git commit filename -m “Commit”
+Save your local commits to server								$	git push
+Add remote server 															$	git remote add remote-name remote-url
 						e.g
-						$git remote add origin https://github.com/user/repo.git
-Merge code 					$git merge
+																								$	git remote add origin https://github.com/user/repo.git
 
-Find out which diff tool you need to install    $git difftool --tool-help
-Set up diff tool 			 	$git difftool --tool=tkdiff
+Set up merge tool 															$ git config --global merge.tool tkdiff
+Merge code 																			$	git merge
 
-
-
+Find out which diff tool you need to install    $ git difftool --tool-help
+Set up diff tool 			 													$ git difftool --tool=tkdiff
+Use git diff tool 															$ git difftool
 
 
 Tip:
 Type Q to exit from log
 
-Tip 
-Navigate to the folder that contains your 
+Tip
+Navigate to the folder that contains your
 
 0. Go to command line (for Mac). Note for window install git bash.
 1. Change directory to your project folder
    cd directory
    Example:
    directory: C://
-
-
-
-
-
-
- 
