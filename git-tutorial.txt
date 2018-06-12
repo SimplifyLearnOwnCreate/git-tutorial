@@ -7,8 +7,9 @@ Term 		Definition
 ——————————————————————————————————
 Clone 		copy file to server
 Untrack 	new file
-A remote URL is Git's fancy way of saying "the place where your code is stored." That URL could be your repository on GitHub, or another user's fork, or even on a completely different server
-
+remote 		remote URL is Git's fancy way of saying "the place where your code is stored."
+					That URL could be your repository on GitHub, or another user's fork, or even on a completely different server
+origin		is an alias on your system for a particular remote repository
 
 Commands:
 
@@ -42,21 +43,38 @@ Set up diff tool 			 													$ git difftool --tool=tkdiff
 Use git diff tool 															$ git difftool
 
 
-Create and switch to a new branch on your local $ git checkout -b [name_of_your_new_branch]
+
+
+Create a new branch:
+
+Description					Command
+—————————————————————————————————————————————————————————————————————————————————————————————
+Create and switch to a new branch on your local 						$ git checkout -b [name_of_your_new_branch]
 machine
 
-Change working branching 												$ git checkout [name_of_your_new_branch]
-View branch 																		$ git branch
-asterisk indicate your working branch						output:
-																								feature/gui
-																								* master
+View branch 																								$ git branch
+asterisk indicate your working branch												output:
+																														feature/gui
+																														* master
 
-Push changes from your commit into your branch 
 
-																								$ git push [name_of_your_new_remote] [name_of_your_branch]
+Change working branching 																		$ git checkout [name_of_your_new_branch]
 
-Delete a branch on your local machine 					$ git branch -d [name_of_your_new_branch]
-Delete the branch from github										$ git push origin :[name_of_your_new_branch]
+
+Make sure you are in your new branch 												$ git push --set-upstream origin [name_of_your_new_branch]
+add and commit your changes
+when pushing your commits use the following
+
+
+
+Push changes from your commit into your branch							$ git push [name_of_your_new_remote] [name_of_your_branch]
+
+
+
+Delete a branch on your local machine 											$ git branch -d [name_of_your_new_branch]
+Delete the branch from github																$ git push origin :[name_of_your_new_branch]
+
+
 
 Tip:
 Type Q to exit from log
