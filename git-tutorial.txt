@@ -52,7 +52,7 @@ Use git diff tool 															$ git difftool
 
 Create a new branch:
 
-Description					Command
+Description																										Command
 —————————————————————————————————————————————————————————————————————————————————————————————
 Create and switch to a new branch on your local 						$ git checkout -b [name_of_your_new_branch]
 machine
@@ -78,6 +78,19 @@ Push changes from your commit into your branch							$ git push [name_of_your_ne
 
 Delete a branch on your local machine 											$ git branch -d [name_of_your_new_branch]
 Delete the branch from github																$ git push origin :[name_of_your_new_branch]
+
+
+
+Set a new repository
+
+Description																										Command
+—————————————————————————————————————————————————————————————————————————————————————————————
+List your existing remotes in order 														$ git remote -v
+to get the name of the remote you want to change.								origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+																																origin  git@github.com:USERNAME/REPOSITORY.git (push)
+
+Change your remote's URL 																				$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
 
 
 
