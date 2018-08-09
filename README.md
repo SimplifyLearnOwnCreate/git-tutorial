@@ -9,3 +9,7 @@
 
 Single file     $ git reset HEAD path<br>
 All files       $ git reset HEAD *<br>
+
+## Reset local repo to be remote HEAD 
+$ git fetch origin<br>
+$ git reset --hard origin/master<br>
