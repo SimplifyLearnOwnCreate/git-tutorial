@@ -2,10 +2,10 @@
 
 ## Discard unstage changes
 
-Single file     $ git checkout path
-All files       $ git checkout -- .
+-Single file     $ git checkout path<br>
+-All files       $ git checkout -- .<br>
 
 ## Discard staged changes
 
-Single file     $ git reset HEAD path
-All files       $ git reset HEAD *
+Single file     $ git reset HEAD path<br>
+All files       $ git reset HEAD *<br>
