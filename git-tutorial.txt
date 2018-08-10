@@ -39,9 +39,7 @@ Add remote server 															$	git remote add remote-name remote-url
 Set up merge tool 															$ git config --global merge.tool tkdiff
 Merge code 																			$	git merge
 
-Find out which diff tool you need to install    $ git difftool --tool-help
-Set up diff tool 			 													$ git difftool --tool=tkdiff
-Use git diff tool 															$ git difftool
+
 
 
 

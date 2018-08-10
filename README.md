@@ -1,6 +1,18 @@
 # git-tutorial
 
 
+# Tool
+
+## merge tool
+Options available   $ git mergetool --tool-help<br>
+Set up		 					$ git mergetool --tool=tkdiff<br>
+Use 				        $ git mergetool<br>
+
+## diff tool
+Options available   $ git difftool --tool-help<br>
+Set up		 					$ git difftool --tool=tkdiff<br>
+Use 				        $ git difftool<br>
+
 ## Reset local repo to be remote HEAD
 $ git fetch origin<br>
 $ git reset --hard origin/master<br>
