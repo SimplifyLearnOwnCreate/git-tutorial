@@ -30,12 +30,8 @@ Add new files 																	$ git add filename
 																								$	git add filename filename
 
 
-Add all new files	("stage file")								$	git add -A
-Git remove staged file 													$ git reset HEAD <file>
 
 
-Commit file added with message 									$	git commit filename -m “Commit”
-Save your local commits to server								$	git push
 Add remote server 															$	git remote add remote-name remote-url
 						e.g
 																								$	git remote add origin https://github.com/user/repo.git
@@ -105,7 +101,7 @@ Navigate to the folder that contains your
    cd directory
    Example:
    directory: C://
-   
-   
-   meld setup 
+
+
+   meld setup
    https://yousseb.github.io/meld/
