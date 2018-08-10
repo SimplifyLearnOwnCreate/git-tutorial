@@ -7,9 +7,9 @@ $ git reset --hard origin/master<br>
 
 
 ## 1: Add to staged files
-Single file         $ git add path
-More than 1 file 	  $	git add path1 path2
-All files			      $ git add -A
+Single file         $ git add path<br>
+More than 1 file 	  $	git add path1 path2<br>
+All files			      $ git add -A<br>
 
 ## 1: Discard non-staged changes
 
