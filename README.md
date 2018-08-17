@@ -1,5 +1,11 @@
 # git-tutorial
 
+# Remote 
+## Set
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+## Show
+git remote show origin
 
 # Tool
 
